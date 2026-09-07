@@ -44,6 +44,9 @@
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="showcases-and-talks.html#showcases">Showcases &amp; Talks</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/chrisloucaides/"
                            target="_blank">LinkedIn</a>
                     </li>
@@ -72,6 +75,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="showcases-and-talks.html#showcases">Showcases &amp; Talks</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/chrisloucaides/"
@@ -159,15 +165,38 @@
                 <div class="bead"></div>
                 <div class="content">
                     <h2>Software Engineer</h2>
-                    <h4 class="time-period">Starting April 2026</h4>
+                    <h4 class="time-period">April 2026 - Present</h4>
                     <img src="https://cdn3.downdetector.com/cdn-cgi/image/width=384/https://cdn2.downdetector.com/static/uploads/logo/Giffgaff_logo_5.png"
                          alt="GiffGaff Logo"
                          style="width: 70%">
                     <hr>
                     <p class="fs-4">
-                        Excited to be starting a new role at <a href="https://www.giffgaff.com/" target="_blank">GiffGaff</a> very soon,
-                        as part of their newly formed Broadband team!
-                        Check back in a few weeks to see what I get up to!
+                        I currently work at <a href="https://www.giffgaff.com/" target="_blank">giffgaff</a> as part of
+                        their newly formed <strong>Broadband</strong> team, building the order fulfilment platform that
+                        takes a member from placing a broadband order all the way through to a completed engineer
+                        installation and live service.
+                        <br><br>
+                        The stack is <strong>Java (Spring Boot) microservices running on Kubernetes</strong>, communicating
+                        over <strong>Kafka</strong> and backed by <strong>PostgreSQL</strong>. Because the domain is new,
+                        there's been a lot of genuinely greenfield work — I recently <strong>architected cross-service
+                        support for a new Rewards product domain</strong> spanning three separate services, which meant
+                        extending a shared company-wide API contract, reworking the central product catalogue's domain
+                        model, and designing a product-sync capability from scratch. Making the call to build it
+                        event-driven rather than follow the legacy HTTP-triggered pattern — and then having to evidence
+                        and defend that decision — is the kind of ownership I've really enjoyed here.
+                        <br><br>
+                        A lot of my time goes on <strong>reliability and observability</strong>. I built a Kafka producer
+                        that captures upstream error codes into <strong>Snowflake</strong>, with a
+                        <strong>Streamlit</strong> dashboard on top, which gave the business its first real view of which
+                        upstream rejections were causing members to fail repeatedly when rebooking appointments. I also
+                        hold <strong>on-call responsibility</strong> for the services I build, and care a lot about
+                        testing — using <strong>mutation testing</strong> alongside line and branch coverage, and writing
+                        <strong>Cucumber</strong> feature tests that describe behaviour in terms the whole team can read.
+                        <br><br>
+                        Something I've found particularly interesting is <strong>AI-assisted development</strong>. I
+                        undertook a five-week <a href="https://www.anthropic.com/claude-code" target="_blank">Claude
+                        Code</a> rollout across the team, working out where these tools genuinely help, where they don't,
+                        and how to adopt them without quietly eroding code quality or review discipline.
                     </p>
                 </div>
             </div>
